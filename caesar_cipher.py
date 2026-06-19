@@ -1,9 +1,6 @@
 """
 Caesar Cipher Program
 =====================
-Encrypt and decrypt messages using a shift-based substitution cipher.
-Supports uppercase/lowercase letters and preserves non-alphabetic characters.
-"""
 
 
 def caesar_cipher(text: str, shift: int, mode: str = "encrypt") -> str:
